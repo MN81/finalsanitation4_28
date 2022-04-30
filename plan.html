@@ -5,43 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Plan clean up</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
 
     <body>
     
-        <header class="header">
-            
-            <nav class="container">
-                
-                <div class="left">
-                    <img src="img/sanitation-foundation.png" alt="Sanitation Foundation logo">
-                </div>
-                
-                    <ul class="right">               
-                        <li class="header-nav-item"><a href="#">who we are</a></li>
-                        <li class="header-nav-item"><a href="#">what we do</a></li>
-                        <li class="header-nav-item"><a href="#">give</a></li>
-                        <li class="header-nav-item"><a href="#">get involved</a></li>
+        <!-- Navbar from headers-css.versel.app/header-3.html  -->
+     <header class="site-header">
+        <div class="wrapper site-header_wrapper">
+            <div class="site-header_start">
+                <img src="img/sanitation-foundation.png" class="logo" alt="Sanitation Foundation logo">
+            </div>
+        <div class="site-header_end">
+            <nav class="nav">
+               
+                <ul class="nav_wrapper">               
+                        <li class="nav-item"><a href="#">who we are</a></li>
+                        <li class="nav-item"><a href="#">what we do</a></li>
+                        <li class="nav-item"><a href="#">give</a></li>
+                        <li class="nav-item get-involved"><a href="#">get involved</a></li>
                     </ul>
-                
-                <div class="donate">
-                    <a href="https://www.sanitationfoundation.org/donate" target="_blank"><img src="img/donate.png" alt="Donate button"></a>
-                </div>
-             </nav>
-             <ul class="breadcrumb">
-                <li><a href="https://www.sanitationfoundation.org/">Home</a></li>
-                <li><a href="https://www.sanitationfoundation.org/volunteer">Get involved</a></li>
-                <li><a href="index.html">Community Clean-Ups</a></li>
-                <li><a href="plan.html">Plan</a></li>
-                 </ul>
+            </nav>
+            <div class="donate">
+                <a href="https://www.sanitationfoundation.org/donate" class="donate-toggle" target="_blank" style="width:100%;"><img src="img/donate.png" alt="Donate button"></a>
 
+            </div>
+        </div>
+        </div>
+
+        <ul class="breadcrumb">
+            <li><a href="https://www.sanitationfoundation.org/">Home</a></li>
+            <li><a href="https://www.sanitationfoundation.org/volunteer">Get involved</a></li>
+            <li><a href="index.html">Community Clean-Ups</a></li>
+            <li><a href="plan.html">Plan</a></li>
+             </ul>
+     </header>
     
-        </header>
-
-    <main>
+     <main>
         <section id="achievements">
             <div class="full-width">
                 <h1> Clean-Up Organizer</h1>
@@ -50,9 +52,6 @@
             </div>
         </section>
     
-
-    <!-- Do I make a div for an empty rectangle? -->
-    <!-- <div class="rectangle"></div> -->
    
 
     <section class="change">
@@ -70,7 +69,7 @@
             <div class="box">
                 <div class="img-clean-right"><img src="img/cleanteam.png" alt="clean up image" width="60%"></div>
                 <h1>After the clean-up</h1>
-                <ul style="list-style-type:disc">
+                <ul style="list-style-type:disc; padding-left: 15px;">
                     <li>We want to hear all about the cleanup event, <a href="endcleanup.html">click here to submit end of clean up bag information.</a> Within 24 hours after your event, complete the end of clean up 
                          form where you will be able to share photos about the event and other information so we can know how many bags you collected 
                         and how many volunteers joined you. 

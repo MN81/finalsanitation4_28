@@ -20,65 +20,79 @@ h1 {
 
 
 /* Navigation */
+/*  Navbar from headers-css.versel.app/header-3.html */
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    font-size: 1.5em;
-    width: 100%;
-    padding-top: 56px;
-    color:  #000000;
-    cursor: pointer;
+.logo {
+    width: 230px;
 }
 
+.site-header {
+   position: relative;
+ }
+ 
+.site-header_end {
+   display: flex;
+   align-self: center;
+     }
 
-div.logo {
-    display: flex;
-    justify-content: space-between;
-    float:left;
-    width: auto;
-}
+ .site-header_wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 1rem;
+   padding-bottom:1rem; 
+   flex-grow: 1; 
+   }
 
-.logo.navbar {
-    display: flex;
-    justify-content: flex-start;
-    
-}
+.nav-item a {
+       display: block;
+       padding: 1.5rem 1rem;
+       font-size: 1.5rem;
+     }
 
-li.header-nav-item {
-    display: flex;
-    display: inline-block;
-    float:right;
-}
-
-
-
-
-/****** stuck here on moving the main menu items button ******/
-.container {
-    display: flex;
-}
-
-
-.container li a {
-    text-decoration: none;
-}
   
-    
- /* Howard Beach Clean-up Picture */
+   .donate {
+       display: flex;
+      
+     }
 
- .howard-beach-img {
-    background-size: cover;
-    object-fit: cover;
-     width: 1440px;
-     height: auto;
-  }
+     .donate_toggle {
+       appearance: none;
+       order: 1;
+       font-size: 0;
+       }
 
-  div.howard-beach-img {
-      clear: both;
+ 
 
-  }
+ .wrapper {
+   max-width: 1140px;
+   padding-left: 1rem;
+   padding-right: 1rem;
+ }
+ 
+ a{
+   text-decoration: none;
+   color: black;
+ }
+ 
+
+ .nav_wrapper {
+   display: flex;
+ }
+ 
+ 
+ 
+ ul {
+   list-style: none;
+ }
+ 
+
+
+ .get-involved a {
+     color: #F7BD40;
+ }
+ 
+
 
   
 /* Achievements Section */
@@ -108,49 +122,12 @@ li.header-nav-item {
    
 }
 
-/* Graph */
-
-div.graph {
-    display: flex;
-    align-items: center;
-   object-fit: cover;
-   padding: 20px 20px;
-  
-}
 
 /* Let's Make a Change Section */
 
 .change {
     padding-left: 20px;  
 }
-
-
-div.card {
-   display: inline-block; 
-    width: 240px;
-    padding-left: 100px;
-    
-}
-
-.card img {
-    width: 240px;
-    object-fit: cover;
-    padding-right: 15px;
-    
-  
-}
-
-.card h3 {
-    width: 240px;
-    padding: 15px 0;
-}
-
-.card p {
-    width: 240px;
-    padding-bottom: 15px;
-    padding-right: 15px;
-}
-
 
 div.change-btn a{
     display: inline-block;
@@ -175,12 +152,12 @@ div.change-btn img {
 }
 .img-clean{
     float:left;
-    padding-top: 1oem;
+    padding-top: 1em;
 }
 
 .img-clean-right{
     float:right;
-    padding-top: 1oem;
+    padding-top: 1em;
 }
 
 .left{
